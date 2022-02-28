@@ -1,0 +1,113 @@
+2021-11-18T05:34:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_shop_demo_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code on line 2
+
+2021-11-18T05:34:57+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_shop_demo_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code on line 2
+
+2021-11-18T05:36:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_shop_demo_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(51): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1676): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_sim...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#14 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#16 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code on line 2
+
+2021-11-18T05:38:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_shop_demo_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(51): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1676): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_sim...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#14 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#16 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code on line 2
+
+2021-11-18T05:40:13+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code:2
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_shop_demo_button('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(51): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1676): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_sim...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#14 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#16 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#17 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(469) : eval()'d code on line 2
+
+2021-11-18T08:24:16+00:00 CRITICAL syntax error, unexpected token "var" in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(221) : eval()'d code on line 6
+
+2021-11-18T08:26:01+00:00 CRITICAL syntax error, unexpected token "var" in C:\xampp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(221) : eval()'d code on line 6
+
